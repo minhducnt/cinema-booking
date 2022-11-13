@@ -1,6 +1,6 @@
 # Easy Booking Cinema
 
-Movie Tickets Online Booking Website Using ReactJS
+This is the frontend of the [Tickitz Booking Cinema](https://github.com/minhducnt/cinema-booking) project
 
 ## Preview
 
@@ -9,7 +9,6 @@ Movie Tickets Online Booking Website Using ReactJS
 ## Resources
 
 ```text
-Main API: https://github.com/lamhoang1256/easy-cinema-booking-api
 TMDB API: https://www.themoviedb.org
 Ionicons: https://ionic.io/ionicons
 Google Font: https://fonts.google.com/specimen/Overpass
@@ -43,17 +42,12 @@ Cache Image Proxy: https://images.weserv.nl
 - Manage User: Add new, update, delete user.
 - Manage Showtimes: Add new, update, delete showtime, view info showtime including price, total seats are booked, total money ticket sales.
 
-## Default login credentials
-
-- email: user@example.com
-- password: 11111111
-
 ## Environment Variables
 
 ```text
 REACT_APP_PUBLIC = http://localhost:3000 (or Link vercel)
 
-# See: https://github.com/lamhoang1256/easy-cinema-booking-api
+# API URL
 REACT_APP_API =
 
 # See: https://www.themoviedb.org/

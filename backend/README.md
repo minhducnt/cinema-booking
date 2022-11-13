@@ -1,7 +1,5 @@
 # Online Movie Ticket Booking System
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
-
 This is the api of the [Tickitz Booking Cinema](https://github.com/minhducnt/cinema-booking) project
 
 ## Swagger
@@ -21,26 +19,25 @@ This is the api of the [Tickitz Booking Cinema](https://github.com/minhducnt/cin
 
 ## Installation
 
-1. cd backend
-2. Add `.env` file in the root folder
-3. Copy `.env file content` to your `.env` file
-4. To install packages: `yarn`
-5. To add file storage folder: `yarn setup`
-6. To init database and generate seeds: `yarn db:init`
-7. To destroy the tables and rerun migration and seed scripts: `yarn db:reset`
-8. To start the project: `npm run`
+1. Add `.env` file in the root folder
+2. Copy `Environment Variables` to your `.env` file
+3. To install packages: `yarn`
+4. To add file storage folder: `yarn setup`
+5. To init database and generate seeds: `yarn db:init`
+6. To destroy the tables and rerun migration and seed scripts: `yarn db:reset`
+7. To start the project: `npm run`
 
-## .env file content
+## Environment Variables
 
 ```text
-// Environment
+# Environment
 NODE_ENV="development"
 
-// URL
+# URL
 BASE_URL="http://localhost:8080"
 PORT=8080
 
-// Database
+# Database
 DEV_DB_USERNAME="root"
 DEV_DB_PASSWORD=null
 DEV_DB_DATABASE="dev_database"
@@ -53,11 +50,11 @@ PROD_DB_DATABASE="prod_database"
 PROD_DB_HOST="127.0.0.1"
 PROD_DB_DIALECT="mysql"
 
-// JWT
+# JWT
 JWT_SECRET="secret-key"
 JWT_TOKEN_EXPIRATION=86400
 
-// Cloudinary
+# Cloudinary
 CLOUDINARY_CLOUD_NAME="cloud_name"
 CLOUDINARY_API_KEY="api_key"
 CLOUDINARY_API_SECRET="api_secret"
