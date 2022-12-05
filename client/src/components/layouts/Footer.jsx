@@ -72,7 +72,7 @@ const StyledFooter = styled.footer`
 
 const footerNav = [
 	{
-		title: 'EasyBooking',
+		title: 'Tickitz',
 		path: [
 			'Hướng đến mục tiêu mang lại sự nhanh chóng, trực quan không cần ra mua vé trực tiếp tại rạp. Tiết kiệm thời gian và tiện lợi.',
 		],
@@ -82,7 +82,7 @@ const footerNav = [
 		path: [
 			'Hotline: 1900 9999',
 			'Giờ làm việc: 8:00 - 22:00 (Tất cả các ngày bao gồm cả Lễ Tết)',
-			'Email hỗ trợ: hoidap@easybooking.vn',
+			'Email hỗ trợ: hoidap@tickitz.vn',
 		],
 	},
 	{

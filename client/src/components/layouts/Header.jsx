@@ -102,7 +102,7 @@ const Header = () => {
 			<div className="container">
 				<div className="header-content">
 					<Link to={path.home} className="header-logo">
-						<h2>EasyBooking</h2>
+						<h2>Tickitz</h2>
 					</Link>
 					<ul className={`navbar-list ${isShowMenu ? 'show' : null}`}>
 						{headerNav.map((item) => (
