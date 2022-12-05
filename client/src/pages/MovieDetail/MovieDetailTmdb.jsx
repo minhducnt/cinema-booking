@@ -1,4 +1,4 @@
-import { tmdbAPI } from 'apis/tmdbApi';
+import { tmdbAPI } from 'shared/apis/tmdbApi';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
 import DetailBanner from 'module/detail/DetailBanner';
 import DetailCasts from 'module/detail/DetailCasts';
@@ -9,7 +9,7 @@ import HomeComplexes from 'module/home/HomeComplexes';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { scrollTop } from 'utils/helper';
+import { scrollTop } from 'shared/utils/helper';
 
 const StyledMovieDetailTmdb = styled.section``;
 

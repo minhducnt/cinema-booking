@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import { configAPI } from 'apis/configAPI';
-import { usePagination } from 'hooks/usePagination';
+import { configAPI } from 'shared/apis/configAPI';
+import { usePagination } from 'shared/hooks/usePagination';
 import HomeComplexes from 'module/home/HomeComplexes';
 import HomeFeature from 'module/home/HomeFeature';
 import MovieList from 'components/movie/MovieList';
 import HomeBanner from 'module/home/HomeBanner';
-import { scrollTop } from 'utils/helper';
+import { scrollTop } from 'shared/utils/helper';
 
 const Home = () => {
 	const [movieList, setMovieList] = useState({ loading: true, data: [] });

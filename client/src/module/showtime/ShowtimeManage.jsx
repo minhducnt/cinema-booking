@@ -2,10 +2,10 @@ import moment from 'moment';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import styled from 'styled-components';
-import { configAPI } from 'apis/configAPI';
+import { configAPI } from 'shared/apis/configAPI';
 import { TextClamp } from 'assets/styles/mixin';
-import { path } from 'constants/path';
-import { usePagination } from 'hooks/usePagination';
+import { path } from 'shared/constants/path';
+import { usePagination } from 'shared/hooks/usePagination';
 import ActionDelete from 'components/action/ActionDelete';
 import ActionUpdate from 'components/action/ActionUpdate';
 import ActionView from 'components/action/ActionView';
@@ -14,7 +14,7 @@ import ImageResize from 'components/image/ImageResize';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
 import Pagination from 'components/pagination/Pagination';
 import Table from 'components/table/Table';
-import { swalDelete } from 'utils/swalWarningDelete';
+import { swalDelete } from 'shared/utils/swalWarningDelete';
 
 const StyledShowtimeManage = styled.div`
 	.poster {

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import Swal from 'sweetalert2';
 import { toast } from 'react-toastify';
-import { useDebounce } from 'hooks/useDebounce';
-import { usePagination } from 'hooks/usePagination';
+import { useDebounce } from 'shared/hooks/useDebounce';
+import { usePagination } from 'shared/hooks/usePagination';
 import { useEffect, useState } from 'react';
-import { path } from 'constants/path';
-import { configAPI } from 'apis/configAPI';
+import { path } from 'shared/constants/path';
+import { configAPI } from 'shared/apis/configAPI';
 import { TextClamp } from 'assets/styles/mixin';
 import Button from 'components/button/Button';
 import ImageResize from 'components/image/ImageResize';
@@ -16,7 +16,7 @@ import ActionDelete from 'components/action/ActionDelete';
 import ActionUpdate from 'components/action/ActionUpdate';
 import ActionView from 'components/action/ActionView';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
-import { swalDelete } from 'utils/swalWarningDelete';
+import { swalDelete } from 'shared/utils/swalWarningDelete';
 
 const StyledMovieManage = styled.div`
 	.title {
@@ -135,7 +135,11 @@ const MovieManage = () => {
 											</td>
 											<td>{movie.rating}</td>
 											<td>
-												<a href={movie.trailer} target="_blank">
+												<a
+													href={movie.trailer}
+													target="_blank"
+													rel="noreferrer"
+												>
 													Trailer
 												</a>
 											</td>

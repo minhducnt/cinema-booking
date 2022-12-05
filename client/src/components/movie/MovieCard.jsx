@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { path } from 'constants/path';
+import { path } from 'shared/constants/path';
 import ImageResize from 'components/image/ImageResize';
 import MovieTitle from './MovieTitle';
 

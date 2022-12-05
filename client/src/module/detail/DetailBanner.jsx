@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { tmdbAPI } from 'apis/tmdbApi';
+import { tmdbAPI } from 'shared/apis/tmdbApi';
 import ImageResize from 'components/image/ImageResize';
 
 const StyledDetailBanner = styled.div`

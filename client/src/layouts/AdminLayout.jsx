@@ -1,7 +1,7 @@
 import ErrorPage from 'components/ErrorPage/ErrorPage';
 import Section from 'components/section/Section';
 import Sidebar from 'components/Sidebar/Sidebar';
-import { useMediaQuery } from 'hooks/useMediaQuery';
+import { useMediaQuery } from 'shared/hooks/useMediaQuery';
 import { Outlet } from 'react-router-dom';
 
 const AdminLayout = () => {

@@ -3,11 +3,11 @@ import Swal from 'sweetalert2';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import TagSmall from 'components/tag/TagSmall';
-import { path } from 'constants/path';
-import { useCountDownBooking } from 'hooks/useCountDownBooking';
+import { path } from 'shared/constants/path';
+import { useCountDownBooking } from 'shared/hooks/useCountDownBooking';
 import { resetSelectingSeat, selectSeat } from 'pages/Booking/booking.slice';
 import { useDispatch, useSelector } from 'react-redux';
-import { formatTimeTwoDigit } from 'utils/formatDate';
+import { formatTimeTwoDigit } from 'shared/utils/formatDate';
 import BookingSeating, { StyledSeat } from './BookingSeating';
 
 const StyledBookingSeatingPlan = styled.div`

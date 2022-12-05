@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { path } from 'constants/path';
-import { useDebounce } from 'hooks/useDebounce';
-import { usePagination } from 'hooks/usePagination';
-import { configAPI } from 'apis/configAPI';
+import { path } from 'shared/constants/path';
+import { useDebounce } from 'shared/hooks/useDebounce';
+import { usePagination } from 'shared/hooks/usePagination';
+import { configAPI } from 'shared/apis/configAPI';
 import Button from 'components/button/Button';
 import SearchInput from 'module/search/SearchInput';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
@@ -12,7 +12,7 @@ import Table from 'components/table/Table';
 import ActionUpdate from 'components/action/ActionUpdate';
 import ActionDelete from 'components/action/ActionDelete';
 import { toast } from 'react-toastify';
-import { swalDelete } from 'utils/swalWarningDelete';
+import { swalDelete } from 'shared/utils/swalWarningDelete';
 
 const StyledUserManage = styled.div``;
 

@@ -1,12 +1,12 @@
 import useSWR from 'swr';
 import styled from 'styled-components';
-import { useDebounce } from 'hooks/useDebounce';
+import { useDebounce } from 'shared/hooks/useDebounce';
 import { useEffect, useState } from 'react';
-import { fetcher, tmdbAPI } from 'apis/tmdbApi';
+import { fetcher, tmdbAPI } from 'shared/apis/tmdbApi';
 import SearchInput from 'module/search/SearchInput';
-import { usePagination } from 'hooks/usePagination';
+import { usePagination } from 'shared/hooks/usePagination';
 import SearchList from 'module/search/SearchList';
-import { scrollTop } from 'utils/helper';
+import { scrollTop } from 'shared/utils/helper';
 
 const StyledSearchMovie = styled.div``;
 

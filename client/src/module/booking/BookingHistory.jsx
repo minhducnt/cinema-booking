@@ -7,14 +7,14 @@ import {
 	calculateSumMoney,
 	commaHashtagSeparation,
 	formatVND,
-} from 'utils/helper';
-import { configAPI } from 'apis/configAPI';
+} from 'shared/utils/helper';
+import { configAPI } from 'shared/apis/configAPI';
 import ActionStatus from 'components/action/ActionStatus';
 import Button from 'components/button/Button';
 import Field from 'components/field/Field';
 import ImageResize from 'components/image/ImageResize';
 import ActionView from 'components/action/ActionView';
-import { path } from 'constants/path';
+import { path } from 'shared/constants/path';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
 
 const StyledBookingHistory = styled.div`

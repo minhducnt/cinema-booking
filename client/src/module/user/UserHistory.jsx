@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 import moment from 'moment';
 import { useState, useEffect } from 'react';
-import { configAPI } from 'apis/configAPI';
+import { configAPI } from 'shared/apis/configAPI';
 import {
 	calculateSumMoney,
 	commaHashtagSeparation,
 	sortArrayDescending,
-} from 'utils/helper';
+} from 'shared/utils/helper';
 import Table from 'components/table/Table';
 import ActionStatus from 'components/action/ActionStatus';
 import ActionView from 'components/action/ActionView';
-import { usePagination } from 'hooks/usePagination';
+import { usePagination } from 'shared/hooks/usePagination';
 import Pagination from 'components/pagination/Pagination';
-import { path } from 'constants/path';
+import { path } from 'shared/constants/path';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
 
 const StyledUserHistory = styled.div``;

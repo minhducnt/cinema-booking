@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useParams, useSearchParams } from 'react-router-dom';
-import { configAPI } from 'apis/configAPI';
-import { tmdbAPI } from 'apis/tmdbApi';
+import { configAPI } from 'shared/apis/configAPI';
+import { tmdbAPI } from 'shared/apis/tmdbApi';
 import DetailBanner from 'module/detail/DetailBanner';
 import DetailHeader from 'module/detail/DetailHeader';
 import DetailOverview from 'module/detail/DetailOverview';
@@ -11,7 +11,7 @@ import DetailTrailer from 'module/detail/DetailTrailer';
 import HomeComplexes from 'module/home/HomeComplexes';
 import DetailMyTrailer from 'module/detail/DetailMyTrailer';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
-import { scrollTop } from 'utils/helper';
+import { scrollTop } from 'shared/utils/helper';
 
 const StyledMovieDetail = styled.div`
 	.heading-sub {

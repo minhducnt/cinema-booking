@@ -1,11 +1,11 @@
-import { configAPI } from 'apis/configAPI';
+import { configAPI } from 'shared/apis/configAPI';
 import styled from 'styled-components';
 import Swal from 'sweetalert2';
-import { path } from 'constants/path';
+import { path } from 'shared/constants/path';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { calculateSumMoney, scrollTop } from 'utils/helper';
+import { calculateSumMoney, scrollTop } from 'shared/utils/helper';
 import Button from 'components/button/Button';
 import Field from 'components/field/FieldText';
 import BookingHeading from './BookingHeading';

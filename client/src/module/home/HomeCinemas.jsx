@@ -1,5 +1,5 @@
 import { Tabs } from 'antd';
-import { useMediaQuery } from 'hooks/useMediaQuery';
+import { useMediaQuery } from 'shared/hooks/useMediaQuery';
 import styled from 'styled-components';
 import HomeScreens from './HomeScreens';
 

@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { configAPI } from 'apis/configAPI';
-import { usePagination } from 'hooks/usePagination';
+import { configAPI } from 'shared/apis/configAPI';
+import { usePagination } from 'shared/hooks/usePagination';
 import Table from 'components/table/Table';
 import ActionView from 'components/action/ActionView';
 import Pagination from 'components/pagination/Pagination';
-import { path } from 'constants/path';
+import { path } from 'shared/constants/path';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
 import { TextClamp } from 'assets/styles/mixin';
 

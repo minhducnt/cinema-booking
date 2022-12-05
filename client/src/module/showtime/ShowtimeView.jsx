@@ -1,13 +1,13 @@
-import { configAPI } from 'apis/configAPI';
+import { configAPI } from 'shared/apis/configAPI';
 import Button from 'components/button/Button';
 import LoadingSpinner from 'components/loading/LoadingSpinner';
-import { path } from 'constants/path';
+import { path } from 'shared/constants/path';
 import BookingSeating from 'module/booking/BookingSeating';
 import MovieViewDetail from 'module/movie/MovieViewDetail';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { formatVND } from 'utils/helper';
+import { formatVND } from 'shared/utils/helper';
 
 const StyledShowtimeView = styled.div`
 	.screen {

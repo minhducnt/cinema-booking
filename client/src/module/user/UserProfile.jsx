@@ -3,13 +3,13 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import styled from 'styled-components';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
-import { configAPI } from 'apis/configAPI';
-import { schemaUser } from 'constants/yupSchema';
+import { configAPI } from 'shared/apis/configAPI';
+import { schemaUser } from 'shared/constants/yupSchema';
 import Field from 'components/field/Field';
 import Input from 'components/input/Input';
 import Label from 'components/label/Label';
 import LabelError from 'components/label/LabelError';
-import { removeEmptyStringProperties } from 'utils/helper';
+import { removeEmptyStringProperties } from 'shared/utils/helper';
 import { StyledButtonAuth } from 'pages/Authentication/authentication.style';
 
 const StyledUserProfile = styled.div`

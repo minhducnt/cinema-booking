@@ -1,4 +1,4 @@
-import RoutesComponent from 'routes/Routes';
+import RoutesComponent from 'shared/routes/Routes';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
